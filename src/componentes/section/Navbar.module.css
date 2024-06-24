@@ -16,3 +16,8 @@
     margin: 15px;
 
 }
+
+.navbar a {
+    color: aliceblue !important;
+    text-decoration: none;
+}

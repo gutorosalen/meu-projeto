@@ -1,6 +1,6 @@
 function Skills() {
     return (
-        <div>
+        <div id='Skills'>
             <h1>Essa parte é minha Habilidades</h1>
         </div>
     )
