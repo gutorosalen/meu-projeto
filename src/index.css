@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./image/background.svg");
+  background-image: url("./image/background1.jpg");
+  background-size: cover;
   color: aliceblue
 }
 

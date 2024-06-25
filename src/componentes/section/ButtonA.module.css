@@ -1,0 +1,20 @@
+.btn {
+    background-color: #a39191e7;
+    border-radius: 15px;
+    width: 400px;
+    height: 60px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border: hidden;
+}
+
+.btn:hover {
+    color: aliceblue;
+    background-color: #420000e7;
+    transform: translateY(-9px);
+    transition-duration: 0.4s;
+}
