@@ -1,0 +1,26 @@
+.skills {
+    background: rgba(167, 74, 51, 0.35);
+    border-radius: 20px;
+    margin: 30px 8%;
+    padding: 10px;
+    width: 82%;
+
+}
+
+.skills h1 {
+    font-size: 60px;
+}
+
+.skills p {
+    font-size: 29px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.skills img {
+    border-radius: 20px;
+    height: 140px;
+    width: 140px;
+    margin: 1.2%;
+    box-shadow: 10px 10px 5px #2b0202;
+}

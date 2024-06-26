@@ -1,0 +1,30 @@
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+
+.cards img {
+    border-radius: 15px;
+    width: 500px;
+    height: 300px;
+    margin: 15px 5px;
+}
+
+.cards section {
+    background: rgba(167, 74, 51, 0.35);
+    border-radius: 20px;
+    width: 460px;
+    height: 270px;
+    padding: 15px;
+    margin: 15px 5px;
+}
+
+.cards h3 {
+    font-size: 26px;
+}
+
+.cards p {
+    font-size: 17px;
+    text-align: left;
+}
