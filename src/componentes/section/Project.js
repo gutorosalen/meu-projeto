@@ -7,7 +7,7 @@ import Portifólio from '../../image/projects/Portifólio.png'
 import Ptp from '../../image/projects/Previsão do tempo.png'
 function Project() {
     return (
-        <div class={styles.project} id="Project">
+        <div className={styles.project} id="Project">
             <h1>Projetos</h1>
             <Cards img={arquitetura}
                 title='Lade Paging Arquitetuta'
@@ -33,7 +33,11 @@ function Project() {
                 description='Projeto Front-End para realizar funcionalidade e responsividade'
                 repo='https://github.com/gutorosalen/clima'
                 site='https://desafioclima.netlify.app/' />
-            <ButtonB link="https://github.com/gutorosalen?tab=repositories" text="Acesse meu reposítorio" />
+            <div class={styles.rp}>
+
+                <ButtonB link="https://github.com/gutorosalen?tab=repositories" text="Acesse meu reposítorio" />
+
+            </div>
         </div>
     )
 }

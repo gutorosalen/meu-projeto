@@ -5,7 +5,7 @@ function Cards({ img, title, tech, description, repo, site }) {
     return (
         <div className={styles.cards} >
             <a href={site}>
-                <img src={img} />
+                <img src={img} alt='ERRO' />
             </a>
             <section>
                 <h3>{title}</h3>
