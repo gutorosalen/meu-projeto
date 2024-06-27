@@ -18,3 +18,47 @@
     transform: translateY(-9px);
     transition-duration: 0.4s;
 }
+
+@media (max-width: 750px) {
+    .btn {
+        background-color: #a39191e7;
+        border-radius: 15px;
+        width: 240px;
+        height: 28px;
+        font-weight: bolder;
+        padding: 4px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        font-size: 14px;
+        cursor: pointer;
+        border: hidden;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    :root {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 450px) {
+    .btn {
+        background-color: rgb(247, 161, 3, 0.4);
+        border-radius: 15px;
+        width: 170px;
+        height: 20px;
+        font-weight: bolder;
+        padding: 2px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        font-size: 12px;
+        cursor: pointer;
+        border: hidden;
+    }
+}

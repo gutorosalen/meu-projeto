@@ -1,6 +1,6 @@
 .btn {
-    background-color: transparent;
-    border: 5px solid #860000e7;
+    background-color: rgba(74, 0, 134, 0.5);
+    border: 1px solid #860000e7;
     border-radius: 15px;
     width: 340px;
     height: 60px;
@@ -18,4 +18,105 @@
     background-color: #8467a0e7;
     transform: translateY(-9px);
     transition-duration: 0.4s;
+}
+
+@media (max-width: 900px) {
+    .btn {
+        background-color: rgba(74, 0, 134, 0.5);
+        border: 1px solid #860000e7;
+        border-radius: 15px;
+        width: 230px;
+        height: 48px;
+        font-weight: bolder;
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        color: aliceblue;
+    }
+
+    .btn:hover {
+        border: none;
+        background-color: #8467a0e7;
+        transform: translateY(-9px);
+        transition-duration: 0.4s;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .btn {
+        background-color: rgba(74, 0, 134, 0.5);
+        border: 1px solid #860000e7;
+        border-radius: 15px;
+        width: 200px;
+        height: 40px;
+        font-weight: bolder;
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        color: aliceblue;
+    }
+
+    .btn:hover {
+        border: none;
+        background-color: #8467a0e7;
+        transform: translateY(-9px);
+        transition-duration: 0.4s;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .btn {
+        background-color: rgba(74, 0, 134, 0.5);
+        border: 1px solid #860000e7;
+        border-radius: 15px;
+        width: 200px;
+        height: 40px;
+        font-weight: bolder;
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 12px;
+        cursor: pointer;
+        color: aliceblue;
+    }
+
+    .btn:hover {
+        border: none;
+        background-color: #8467a0e7;
+        transform: translateY(-9px);
+        transition-duration: 0.4s;
+    }
+
+    @media (max-width: 450px) {
+        .btn {
+            background-color: rgba(74, 0, 134, 0.5);
+            border: 1px solid rgba(134, 0, 0, 0.906);
+            border-radius: 15px;
+            width: 180px;
+            height: 38px;
+            font-weight: bolder;
+            padding: 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 10px;
+            cursor: pointer;
+            color: aliceblue;
+        }
+
+        .btn:hover {
+            border: none;
+            background-color: #8467a0e7;
+            transform: translateY(-9px);
+            transition-duration: 0.4s;
+
+
+
+        }
+    }
 }

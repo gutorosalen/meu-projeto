@@ -5,6 +5,8 @@ import Skills from './componentes/section/Skills';
 import Project from './componentes/section/Project';
 import Footer from './componentes/section/Footer';
 
+
+
 function App() {
   return (
     <div className="App">

@@ -22,13 +22,13 @@ function Project() {
                 repo='https://github.com/gutorosalen/Desafiolade.git'
                 site='https://ladeccpx.netlify.app/' />
             <Cards img={Portifólio}
-                title='Lade Paging Arquitetuta'
+                title='Portifólio'
                 tech=' HTML, CSS, JS, JSX, React'
                 description='Projeto Front-End para realizar funcionalidade e responsividade'
                 repo='https://github.com/gutorosalen/meu-projeto'
-                site='https://d-1arquitetura.netlify.app/' />
+                site='https://portfolio-gustavos-projects-b6e15ee8.vercel.app/' />
             <Cards img={Ptp}
-                title='Lade Paging Arquitetuta'
+                title='Previsão do Tempo'
                 tech='  HTML, CSS, JS, JSX, React, API, JSON'
                 description='Projeto Front-End para realizar funcionalidade e responsividade'
                 repo='https://github.com/gutorosalen/clima'

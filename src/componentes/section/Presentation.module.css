@@ -10,3 +10,117 @@
 .presentation p {
     font-size: 24px;
 }
+
+@media (max-width: 1000px) {
+    :root {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .presentation {
+        margin: 15px 40px;
+
+    }
+
+    .presentation h1 {
+        font-size: 21px;
+        text-align: center;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .presentation p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+
+}
+
+@media (max-width: 700px) {
+    :root {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .presentation {
+        margin: 15px 40px;
+
+    }
+
+    .presentation h1 {
+        font-size: 19px;
+        text-align: center;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .presentation p {
+        font-size: 14px;
+        text-align: left;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .presentation {
+        margin: 25px 60px;
+
+    }
+
+    .presentation h1 {
+        font-size: 19px;
+        text-align: center;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .presentation p {
+        font-size: 12px;
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .presentation {
+        margin: 10px 26px;
+
+    }
+
+    .presentation h1 {
+        font-size: 17px;
+        text-align: center;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .presentation p {
+        font-size: 11px;
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .presentation {
+        margin: 10px 10px;
+
+    }
+
+    .presentation h1 {
+        font-size: 14px;
+        text-align: center;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .presentation p {
+        font-size: 9px;
+        text-align: left;
+    }
+
+}

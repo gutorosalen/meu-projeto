@@ -7,6 +7,7 @@ function Cards({ img, title, tech, description, repo, site }) {
             <a href={site}>
                 <img src={img} alt='ERRO' />
             </a>
+
             <section>
                 <h3>{title}</h3>
                 <p>Tecnologias:{tech}</p>

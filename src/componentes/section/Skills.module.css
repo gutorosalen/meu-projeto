@@ -24,3 +24,156 @@
     margin: 1.2%;
     box-shadow: 10px 10px 5px #2b0202;
 }
+
+@media (max-width: 1200px) {
+    .skills {
+        background: rgba(167, 74, 51, 0.35);
+        border-radius: 20px;
+        margin: 15px 6.7%;
+        padding: 5px;
+        width: 85%;
+
+    }
+
+    .skills h1 {
+        font-size: 18px;
+    }
+
+    .skills p {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .skills img {
+        border-radius: 20px;
+        height: 80px;
+        width: 80px;
+        margin: 1.2%;
+        box-shadow: 10px 10px 5px #2b0202;
+    }
+}
+
+@media (max-width: 600px) {
+    .skills {
+        background: rgba(167, 74, 51, 0.35);
+        border-radius: 20px;
+        margin: 15px 6.7%;
+        padding: 5px;
+        width: 85%;
+
+    }
+
+    .skills h1 {
+        font-size: 18px;
+    }
+
+    .skills p {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .skills img {
+        border-radius: 20px;
+        height: 70px;
+        width: 70px;
+        margin: 1.2%;
+        box-shadow: 10px 10px 5px #2b0202;
+    }
+
+
+}
+
+@media (max-width: 660px) {
+    .skills {
+        background: rgba(167, 74, 51, 0.35);
+        border-radius: 20px;
+        margin: 15px 6.7%;
+        padding: 5px;
+        width: 85%;
+
+    }
+
+    .skills h1 {
+        font-size: 18px;
+    }
+
+    .skills p {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .skills img {
+        border-radius: 10px;
+        height: 53px;
+        width: 53px;
+        margin: 1.2%;
+        box-shadow: 10px 10px 5px #2b0202;
+    }
+
+
+}
+
+@media (max-width: 450px) {
+    .skills {
+        background: rgba(167, 74, 51, 0.35);
+        border-radius: 20px;
+        margin: 15px 6.7%;
+        padding: 5px;
+        width: 85%;
+
+    }
+
+    .skills h1 {
+        font-size: 18px;
+    }
+
+    .skills p {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .skills img {
+        border-radius: 10px;
+        height: 35px;
+        width: 35px;
+        margin: 1.1%;
+        box-shadow: 10px 10px 5px #2b0202;
+    }
+
+
+}
+
+@media (max-width: 300px) {
+    .skills {
+        background: rgba(167, 74, 51, 0.35);
+        border-radius: 20px;
+        margin: 15px 6.7%;
+        padding: 5px;
+        width: 85%;
+
+    }
+
+    .skills h1 {
+        font-size: 18px;
+    }
+
+    .skills p {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .skills img {
+        border-radius: 10px;
+        height: 30px;
+        width: 30px;
+        margin: 1.1%;
+        box-shadow: 10px 10px 5px #2b0202;
+    }
+
+
+}

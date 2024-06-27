@@ -11,3 +11,61 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width: 900px) {
+    .project {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .project h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .rp {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .project {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .project h1 {
+        font-size: 20px;
+    }
+
+    .rp {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .project {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .project h1 {
+        font-size: 20px;
+    }
+
+    .rp {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}

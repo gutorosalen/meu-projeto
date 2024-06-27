@@ -10,10 +10,10 @@ function Presentation() {
             <p>
                 Sou um apaixonado por tecnologia e soluções inovadoras.<br />
                 Como Auxiliar, Analista de T.I e Desenvolvedor full-stack, <br />
-                eu tenho o compromisso de resolver problemas<br />
-                complexos e trazer resultados excepcionais para os negócios.<br />
-                Meus projetos são experiêcinas que foi adquirindo ao longo da jornada,<br />
-                estou sempre em busca de novos desafios para superar.<br />
+                eu tenho o compromisso de resolver problemas complexos <br />
+                e trazer resultados excepcionais para os negócios.<br />
+                Meus projetos são experiêcias que foi adquirindo ao longo<br />
+                da jornada, estou sempre em busca de novos desafios.<br />
             </p>
             <ButtonA link='https://github.com/gutorosalen' text='Conecte-se comigo!! ' />
         </div>

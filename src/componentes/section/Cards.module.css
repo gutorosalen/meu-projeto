@@ -28,3 +28,139 @@
     font-size: 17px;
     text-align: left;
 }
+
+@media (max-width: 900px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .cards img {
+        border-radius: 15px;
+        width: 600px;
+        height: 340px;
+    }
+
+    .cards section {
+        background-position: center;
+        background: rgba(167, 74, 51, 0.35);
+        border-radius: 20px;
+        width: 520px;
+        height: 260px;
+        padding: 5%;
+
+    }
+
+    .cards h3 {
+        font-size: 24px;
+    }
+
+    .cards p {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+
+
+
+@media (max-width: 700px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .cards img {
+        border-radius: 15px;
+        width: 450px;
+        height: 220px;
+    }
+
+    .cards section {
+        background: rgba(167, 74, 51, 0.35);
+        border-radius: 20px;
+        width: 410px;
+        height: 200px;
+        padding: 5%;
+    }
+
+    .cards h3 {
+        font-size: 18px;
+    }
+
+    .cards p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .cards img {
+        border-radius: 15px;
+        width: 340px;
+        height: 240px;
+    }
+
+    .cards section {
+        background: rgba(167, 74, 51, 0.35);
+        border-radius: 20px;
+        width: 300px;
+        height: 230px;
+        padding: 5%;
+    }
+
+    .cards h3 {
+        font-size: 18px;
+    }
+
+    .cards p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .cards img {
+        border-radius: 15px;
+        width: 260px;
+        height: 180px;
+    }
+
+    .cards section {
+        background: rgba(167, 74, 51, 0.35);
+        border-radius: 20px;
+        width: 220px;
+        height: 180px;
+        padding: 10px;
+
+    }
+
+    .cards h3 {
+        font-size: 14px;
+    }
+
+    .cards p {
+        font-size: 10px;
+        text-align: center;
+    }
+}
