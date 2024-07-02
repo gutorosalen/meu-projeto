@@ -9,6 +9,12 @@
     width: 500px;
     height: 300px;
     margin: 15px 5px;
+    box-shadow: rgba(149, 72, 0, 0.852) 0px 5px 15px;
+}
+
+.cards img:hover {
+    transform: translateY(-9px);
+    transition-duration: 0.4s;
 }
 
 .cards section {
